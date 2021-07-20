@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title color="warning" mode="ios">Reproductor</ion-title>
+
+    <ion-buttons slot="start" (click)="salir()">
+      <ion-icon name="arrow-back" color="warning"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark">
+
+  <div>
+    <img src="assets/img/ecualizador.gif" width="500" height="150">
+    <ion-item color="medium">
+      <ion-label class="centrar">{{parametroNombre}}</ion-label>
+    </ion-item>
+  </div>
+
+  <div>
+    <div class="controles">
+      <a href="#" id="play" class="enlaces2">
+        <ion-icon class="control" name="play-circle"></ion-icon>
+      </a>
+
+      <a href="#" id="pausa" class="enlaces2">
+        <ion-icon class="control" name="close-circle"></ion-icon>
+      </a>
+
+      <a href="#" id="loader" class="enlaces2">
+        <ion-icon class="control" name="refresh"></ion-icon>
+      </a>
+    </div>
+  </div>
+
+</ion-content>

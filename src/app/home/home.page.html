@@ -1,0 +1,23 @@
+<ion-header [translucent]="true" mode="ios">
+  <ion-toolbar color="dark">
+    <ion-title color="warning">
+      Radios streaming
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="dark">
+  
+  <div class="color">
+    <img src="/assets/img/fondo2.jpg" height="200px" width="100%">
+    
+    <ion-searchbar color="dark" placeholder="Buscar por nombre" (ionChange)="Buscar($event)"></ion-searchbar>
+      
+      <ion-list class="color">
+        <ion-item color="dark" *ngFor="let item of listaradios|filtro:nombreRadio:'nombre'" (click)="irA(item.datosurl, item.nombre)">
+          <img [src]="item.logo" width="50">
+          <ion-label class="espacio">{{item.nombre}}</ion-label>
+        </ion-item>
+      </ion-list>
+  </div>
+</ion-content>

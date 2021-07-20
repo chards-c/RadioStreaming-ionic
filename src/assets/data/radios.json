@@ -1,0 +1,57 @@
+[   
+    {
+        "logo": "/assets/img/radio_catolica.png",
+        "nombre": "CATOLICA",
+        "datosurl": "http://srv.voxservidor.com:7144/;"
+    },
+    {
+        "logo": "/assets/img/radio_tropicana.png",
+        "nombre": "RADIO TROPICANA FM",
+        "datosurl": "http://stream.vennexgroup.com:8000/stream;"
+    },
+    {
+        "logo": "/assets/img/radio_max.png",
+        "nombre": "NOSE",
+        "datosurl": "https://node-33.zeno.fm/evnd5x9057zuv.aac?rj-ttl=5&rj-tok=AAABemN7XZ4ABsVXPj6EDtorvw;"
+    }, 
+    {
+        "logo": "/assets/img/radio_maximaca.png",
+        "nombre": "RADIO MAXIMA CARACOL",
+        "datosurl": "http://streaming.admediasystem.net:9316/;"
+    },
+    {
+        "logo": "/assets/img/radio_alegria.png",
+        "nombre": "RADIO ALEGRIA",
+        "datosurl": "http://streaming.admediasystem.net:9376/;"
+    },
+    {
+        "logo": "/assets/img/radio_nautica.png",
+        "nombre": "RADIO NAUTICA",
+        "datosurl": "https://ssl.srvstm.com:9118/;"
+    },
+    {
+        "logo": "/assets/img/radio_canela.png",
+        "nombre": "RADIO CANELA MANABI",
+        "datosurl": "https://us9.maindigitalstream.com/ssl/7863;"
+    },
+    {
+        "logo": "/assets/img/radio_disney.png",
+        "nombre": "DISNEY",
+        "datosurl": "https://tunein.com/radio/Radio-Disney-Ecuador-937-s103701/;"
+    },
+    {
+        "logo": "/assets/img/radio_loscuarenta.png",
+        "nombre": "LOS 40 ARGENTINA",
+        "datosurl": "http://es.streema.com/radios/play/Los_40_Principales_AR;"
+    },
+    {
+        "logo": "/assets/img/radio_laotra.png",
+        "nombre": "LA OTRA FM",
+        "datosurl": "https://www.radio-ecuador.org/la-otra-radio;"
+    },
+    {
+        "logo": "/assets/img/radio_exa.png",
+        "nombre": "EXA FM 92,5",
+        "datosurl": "https://radios.com.ec/genero/musica-latina/#exa"
+    }
+]

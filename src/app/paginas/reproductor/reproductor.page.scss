@@ -1,0 +1,27 @@
+.control{
+    color:gold;
+    font-size: 80pt;
+}
+.controles{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    display: inline-block;
+}
+.enlaces{
+    color:rgb(236, 231, 231);
+    text-decoration: none;
+}
+.enlaces2{
+    text-decoration: none;
+}
+
+.centrar{
+    text-align: center;
+    font-size: 14pt;
+    color: rgb(149, 232, 140);
+}

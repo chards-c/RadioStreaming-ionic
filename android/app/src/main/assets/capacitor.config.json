@@ -1,0 +1,6 @@
+{
+	"appId": "com.josecedeno.app",
+	"appName": "appRadio",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
